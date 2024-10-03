@@ -10,9 +10,9 @@ async function visualizarDadosGlobais(){
     console.log(dados)
     const paragrafo = document.createElement('p');
     paragrafo.classList.add('graficos-texto');
-    paragrafo.innerHTML = `Você sabia que o mundo tem tem $(totalPessoasMundo)
-    de habitantes e destes $(totalPessoasConectadas) estão conectadas a alguma
-    rede social e ficam em média $(tempoMedio) conectadas.`
+    paragrafo.innerHTML = `Você sabia que o mundo tem tem ${totalPessoasMundo}
+    de habitantes e destes ${totalPessoasConectadas} estão conectadas a alguma
+    rede social e ficam em média ${tempoMedio} conectadas.`
     secao.appendChild(paragrafo)
 }
 
