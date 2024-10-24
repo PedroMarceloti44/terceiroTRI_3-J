@@ -1,4 +1,5 @@
 import { getCSS } from "./comum.js";
+import {tickfont} from "./comum.js";
 
 async function quantidadeusuarios(){
     const url = 'https://raw.githubusercontent.com/guilhermeonrails/api/main/numero-usuarios.json'
